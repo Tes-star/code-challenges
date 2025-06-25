@@ -1,4 +1,0 @@
-Model,Training F1,Validation F1,Test F1,Training Time (s),Best Params
-LogisticRegression,0.7489114658925979,0.6782945736434108,0.7134246575342466,11.18803596496582,"OrderedDict({'classifier__C': 9.948719998234102, 'classifier__solver': 'liblinear'})"
-DecisionTree,0.8006053726825577,0.7133333333333334,0.7106652587117213,1.9751958847045898,"OrderedDict({'classifier__max_depth': 9, 'classifier__min_samples_leaf': 89, 'classifier__min_samples_split': 37})"
-RandomForest,0.8856104340389138,0.8507581803671189,0.7325208466966003,7.218785047531128,"OrderedDict({'classifier__bootstrap': False, 'classifier__max_depth': 9, 'classifier__min_samples_split': 44, 'classifier__n_estimators': 95})"
