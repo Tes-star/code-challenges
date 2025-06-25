@@ -1,0 +1,5 @@
+Model,Training F1,Validation F1,Test F1,Training Time (s),Best Params
+LogisticRegression,0.7512301804264625,0.6894287590282338,0.7032474804031354,30.78463315963745,"OrderedDict({'classifier__C': 1.2172976749510152, 'classifier__solver': 'saga'})"
+DecisionTree,0.7923105917828873,0.7029508196721311,0.7288046340179042,3.7087645530700684,"OrderedDict({'classifier__max_depth': 6, 'classifier__min_samples_leaf': 93, 'classifier__min_samples_split': 55})"
+RandomForest,0.8829445752193452,0.8587570621468926,0.7345639719923616,12.229538440704346,"OrderedDict({'classifier__bootstrap': False, 'classifier__max_depth': 9, 'classifier__min_samples_split': 44, 'classifier__n_estimators': 95})"
+XGBoost,0.8671890697207153,0.7714491708723864,0.7708803611738149,4.041014909744263,"OrderedDict({'classifier__gamma': 0.2593470888883211, 'classifier__max_depth': 5, 'classifier__min_child_weight': 4, 'classifier__n_estimators': 19, 'classifier__reg_alpha': 0.15302679863863342, 'classifier__reg_lambda': 2.7301756309728974e-06})"
